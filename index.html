@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link rel="icon" href="img/io.ico"/> 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>  
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Psoppins%26display=swap" rel="stylesheet">
     
 </head>
 <body>
-   
+   <div class="modal">
+       <img src="img/zily.jpg" alt="">
+        <div class="close"></div>
+   </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">PortFolio</a>
@@ -35,6 +40,11 @@
                         <a class="nav-link" href="#Apropos">Apropos</a>
                     </li>
                 </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
             </div>
         </div>
       </nav>
@@ -73,7 +83,12 @@
                   </div>
             </div>
             <div class="col-6">
-                <img src="img/zily2.png" alt="">
+                <div class="image">
+                    <div class="hover">
+                        <img src="img/zily2.png" alt="">
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -115,12 +130,12 @@
                     <div class="card-body">
                       
                       <div class="form-group">
-                        <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <label for="exampleInputEmail1" class="form-label mt-4">Adresse electronique</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrer votre email">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                       </div>
                       <div class="form-group">
-                        <label for="exampleTextarea" class="form-label mt-4">Example textarea</label>
+                        <label for="exampleTextarea" class="form-label mt-4">Message</label>
                         <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
                       </div>
                       <br>
@@ -169,8 +184,7 @@
                     
                     </div>
                     <br>
-                    
-                        <h5 class="card-title" >__Projet</h5>
+                                          <h5 class="card-title" >__Projet</h5>
                     
                     <ul class="list-group list-group-flush">
                     <li class="list-group-item">PorteBagage Suiver</li>
